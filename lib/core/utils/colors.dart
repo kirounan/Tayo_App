@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static Color redColor = Colors.red;
+  static Color pinccColor = const Color(0xFFFF0080);
 }

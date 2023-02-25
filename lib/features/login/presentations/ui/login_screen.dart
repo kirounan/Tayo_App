@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:tayo_app/config/routes/app_routes.dart';
 import 'package:tayo_app/core/utils/strings.dart';
 
+import '../../../../core/utils/colors.dart';
+
 class LoginScreen extends StatefulWidget {
   @override
   State<LoginScreen> createState() => _LoginScreenState();
@@ -152,9 +154,11 @@ class _LoginScreenState extends State<LoginScreen> {
                           shape: MaterialStatePropertyAll(
                               RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(15))),
-                          backgroundColor: const MaterialStatePropertyAll(
-                              Color(0xFFFF0080))),
+                          backgroundColor:
+                              MaterialStatePropertyAll(AppColors.pinccColor)),
                       onPressed: () {
+                        /// login function
+
                         validateCheck();
                         setState(() {});
                       },

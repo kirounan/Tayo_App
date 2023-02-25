@@ -23,5 +23,24 @@ class AppStrings {
 
   static const wrongPassword = 'كلمة المرور مش صح';
 
+  static const createAccount = 'انشاء حساب';
+
+  static const firstName = 'الأسم الاول';
+
+  static const secondName = 'الأسم الثانى';
+
+  static const phoneNo = 'رقم الهاتف';
+
+  static const phoneNoOfFather = 'رقم هاتف ولى الامر ';
+
+  static const location = 'العنوان';
+
+  static const church = 'الكنيسة';
+
+  static const next = 'التالي';
+
+  static const churchName =
+      """ كنيسة رئيس الملائكة الجليل ميخائيل بكفرالدوار""";
+
   static const inCorrectFormatPassword = 'لازم اكتر من 8 حروف أو ارقام';
 }
